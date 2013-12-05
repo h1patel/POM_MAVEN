@@ -1,0 +1,24 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestNG Learning">
+      
+    <listeners>
+    <listener class-name="ErrorCollectors.TestListenerAdapter" />
+</listeners>
+
+
+<test name="Login test">
+    <classes>
+        <class name="testcases.LoginTest" ></class>  
+    </classes>
+</test>
+  
+
+<test name="Upload a pic test">
+    <classes>
+        <class name="testcases.UploadaPicTest" ></class>  
+    </classes>
+</test>
+
+
+
+</suite>
